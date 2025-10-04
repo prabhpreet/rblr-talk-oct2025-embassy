@@ -1,0 +1,3 @@
+[submodule "rblr-embassy-talk-code"]
+	path = rblr-embassy-talk-code
+	url = https://github.com/prabhpreet/rblr-embassy-talk-code.git
