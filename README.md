@@ -15,6 +15,10 @@ cargo run
 
 Use q to exit, keyboard arrow to select input switch and space to toggle input key press for the selected input switch
 
+### Viewing traces
+
+Traces will be generate in the current working directory with filename `embassy.perfetto.pftrace`. You can view them with [ui.perfetto.dev](https://ui.perfetto.dev/) with traces corresponding to names specified in `src/fw.rs`
+
 ## Run the firmware
 
 You need to wire two physical buttons, two diodes in a matrix configuration. Checkout the code for input/output pin assignments.
